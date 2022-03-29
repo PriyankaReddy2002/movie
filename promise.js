@@ -1,7 +1,7 @@
 
 let promise =new Promise((resolve,reject)=>
 {
-    setTimeout(()=>resolve(1),1000);
+    setTimeout(()=>resolve(5),1000);
 });
 promise.then((result)=>{
 console.log(result);
